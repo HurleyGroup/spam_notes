@@ -26,6 +26,8 @@
         1) single image registration 
             - do binning if requested
             - establish registration margin (size of registration area relative to image size; default = 0.1)
+                - for 2D, margin established w.r.t. y-shape
+                - for 3D, margin established w.r.t. z-shape
             - *run registration*
             - write TSV if requested
         2) use previous registration
