@@ -10,7 +10,7 @@
 - correct input F field if requested (??)
 - set strain mode (either small strains or large strains)
 - choose to output either only strain field or also decomposition of rotation tensor and displacement gradient tensor (F) 
-- call spam.mesh.structured.regularStrain to calculate strains 
+- call *spam.mesh.structured.regularStrain* to calculate strains 
     - input displacement field (Phi field), node spacing, options for large strains and outputting only strain    
 - separate strain components  
 - save strain fields as tiffs and/or vtks if requested
